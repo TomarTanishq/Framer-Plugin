@@ -1,0 +1,80 @@
+/* App.css */
+
+.alt-text-plugin {
+    font-family: 'Inter', sans-serif;
+    padding: 16px;
+    font-size: 14px;
+    color: white;
+}
+
+.alt-text-plugin h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+button {
+    background-color: #0055ff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 6px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #0041c4;
+}
+
+.images-list {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.image-item {
+    border: 1px solid #eee;
+    padding: 12px;
+    border-radius: 8px;
+    background: white;
+    color: black;
+}
+
+.image-item img {
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    object-fit: contain;
+}
+
+.image-item p {
+    margin: 6px 0;
+    color: black;
+}
+
+.image-item label {
+    font-weight: 600;
+}
+
+.streamed-alt-text {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 13px;
+    font-family: inherit;
+    line-height: 1.4;
+    background-color: black;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
